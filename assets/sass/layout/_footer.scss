@@ -1,9 +1,5 @@
-@import '../libs/vars';
-@import '../libs/functions';
-@import '../libs/mixins';
-
 ///
-/// Fractal by HTML5 UP
+/// Hyperspace by HTML5 UP
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -11,37 +7,32 @@
 /* Footer */
 
 	#footer {
-		@include color-typography(accent3);
-		@include padding(4.5em, 0);
-		color: _palette(accent3, fg-light);
-		text-align: center;
+		#sidebar + #wrapper + & {
+			margin-left: _size(sidebar-width);
 
-		a {
-			color: inherit;
+			@include breakpoint('<=large') {
+				margin-left: 0;
+			}
 		}
 
-		.copyright {
-			font-size: 0.8em;
+		> .inner {
+			a {
+				border-bottom-color: _palette(border);
+
+				&:hover {
+					border-bottom-color: transparent;
+				}
+			}
+
+			.menu {
+				font-size: 0.8em;
+				color: _palette(border);
+			}
 		}
 
-		// Medium.
-			@include breakpoint(medium) {
-				@include padding(4em, 4em);
+		#header + #wrapper + & {
+			> .inner {
+				margin: 0 auto;
 			}
-
-		// Small.
-			@include breakpoint(small) {
-
-				// Landscape.
-					@include orientation(landscape) {
-						@include padding(3em, 3em);
-					}
-
-				// Portrait.
-					@include orientation(portrait) {
-						@include padding(3em, 1.5em);
-					}
-
-			}
-
+		}
 	}
