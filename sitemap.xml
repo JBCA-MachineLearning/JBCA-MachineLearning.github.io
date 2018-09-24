@@ -51,12 +51,6 @@
 <priority>0.5</priority>
 </url>
 
-<url>
-<loc>http://https://generic.html</loc>
-<lastmod>2018-09-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
 
 <url>
 <loc>https://github.com/JBCA-MachineLearning</loc>
@@ -72,26 +66,7 @@
 <priority>0.5</priority>
 </url>
 
-<url>
-<loc>https://www.coursera.org/learn/machine-learning</loc>
-<lastmod>2018-09-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
 
-<url>
-<loc>http://https://https://www.coursera.org/learn/machine-learning</loc>
-<lastmod>2018-09-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://https://</loc>
-<lastmod>2018-09-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
 
 </urlset>
 
