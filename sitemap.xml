@@ -2,26 +2,7 @@
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
 
 <!-- generator="ScriptSocket - http://www.scriptsocket.com/sitemaps.php" -->
-<url>
-<loc>http://https://#intro</loc>
-<lastmod>2018-09-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
 
-<url>
-<loc>http://https://#one</loc>
-<lastmod>2018-09-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://https://#two</loc>
-<lastmod>2018-09-24</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
 
 <url>
 <loc>http://https://#three</loc>
