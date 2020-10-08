@@ -1,2 +1,2 @@
 # JBCA-MachineLearning.github.io
-materials for the JBCA Machine Learning (acronym pending) website
+Materials for the SKA-JBCA ML Club (acronym pending) website
